@@ -6,7 +6,7 @@
 
 /* Hero section */
 .bg-hero-image {
-    background: rgba(0, 0, 0, 0.1) url('./Images/L\ -\ sitting\ at\ comp\ back.jpeg');
+    background: rgba(0, 0, 0, 0.1) url('/Images/L\ -\ sitting\ at\ comp\ back.jpeg');
     background-blend-mode: darken;
     height: 45rem;
     overflow: hidden;
