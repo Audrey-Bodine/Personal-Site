@@ -1,0 +1,334 @@
+/* HOME PAGE */
+/* Navigation section */
+.nav-item {
+    font-size: 18px;
+}
+
+/* Hero section */
+.bg-hero-image {
+    background: rgba(0, 0, 0, 0.1) url('../Images/L\ -\ sitting\ at\ comp\ back.jpeg');
+    background-blend-mode: darken;
+    height: 45rem;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.backdrop {
+    height: 45rem;
+    /* filter: blur(5px); */
+}
+
+.hero-text {
+    /* color: rgb(255, 255, 255); */
+    color: rgb(245, 245, 241);
+    padding-top: 20rem;
+}
+
+.h1-hero {
+    font-family: 'Kaisei Opti', serif;
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+h2 {
+    font-family: 'Kaisei Opti', serif;
+}
+
+p, li {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.sub-header {
+    font-size:2rem;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+
+
+/* Bio section */
+.bio-image {
+    border-radius: 50%;
+}
+
+.p-bio {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.art-bk {
+    color: #3573b1;
+}
+
+.web-des {
+    color: #1b4c7d;
+}
+
+.more-btn {
+    color: #5a90b47b;
+}
+
+.bi-chevron-right {
+    color: rgb(105, 114, 122);
+}
+
+.work-btn {
+    padding: 12px;
+    color: white;
+    color: rgb(245, 245, 241);
+}
+
+.monitor-container {
+    display: flex;
+    
+}
+
+.monitor-icon {
+    color: white;
+}
+
+.monitor-text-btn {
+    color: white;
+}
+
+
+/* Work experience section */
+.we-container {
+    font-family: 'Kaisei Opti', serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.we-snapshots {
+    max-width: 100vw;
+    min-width: 100vw;
+}
+
+.we-design {
+    text-align: center;
+    padding: 2rem;
+    font-size: 3rem;
+    margin-top: 4rem;
+}
+
+.we-copy {
+    text-align: center;
+    margin-right: 3rem;
+    padding: 2rem;
+    font-size: 3rem;
+}
+
+.we-content {
+    text-align: center;
+    margin-right: 1.2rem;
+    padding: 2rem;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #80af89, #3573b1, #5a90b47b);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+.resume-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: 85%;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(7px 20px 7px rgba(0, 0, 0, 0.2));
+}
+
+.resume-btn {
+    padding: 30px;
+    font-size: 22px;
+    background-color: 
+}
+
+
+
+
+
+
+
+
+
+/* ABOUT PAGE */
+@media (max-width: 1200px) {
+    .about-text {
+        font-size: 18px;
+        line-height: 2em;
+        text-indent: 20px;
+    }
+
+    .about-image {
+        float: right;
+        object-fit: cover;
+        overflow: hidden;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+}
+
+@media (min-width: 700px) and (max-width: 1200px) {
+    .about-text {
+        font-size: 18px;
+        line-height: 2em;
+        text-indent: 20px;
+    }
+
+    .about-image {
+        float: right;
+        object-fit: cover;
+        overflow: hidden;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+
+    }
+
+}
+
+@media (min-width: 1201px) {
+    .about-text {
+        font-size: 18px;
+        line-height: 2em;
+        text-indent: 20px;
+        /* padding-right: 35rem; */
+    }
+
+    .about-image {
+        padding-left: 2rem;
+    }
+}
+
+.h2-about {
+    padding-bottom: .25rem;
+}
+
+.about-image {
+    float: right;
+    width: 500px;
+    padding-top: 3rem;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.footer-ctn {
+    clear: both;
+}
+
+
+
+
+
+/* PORTFOLIO PAGE */
+.navbar-2 {
+    color: black;
+}
+
+.card-portfolio {
+    object-fit: cover;
+    height: 225px;
+}
+
+
+#visit-btn:hover {
+    color: white;
+}
+
+#visit-btn {
+    color: #5a90b4f7;
+    text-decoration: none;
+}
+
+#three {
+    color: #5a90b4f7;
+    text-decoration: none;
+}
+
+#view-btn:hover {
+    color: white;
+}
+
+#view-btn {
+    color: #5a90b4f7;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/* RESUME PAGE */
+#view-pdf:hover {
+    color: #84b8daf7;
+}
+
+
+#view-pdf{
+    color: #5a90b4f7;
+}
+
+
+
+
+
+
+
+
+
+/* CONTACT PAGE */
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.boxes {
+    padding: 2rem;
+    border-radius: 6px;
+    line-height: 3rem;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    background-color: #84b8daf7;
+    color: #224257f7;
+    text-align: center;
+}
+
+.apps {
+    text-align: center;
+    background-color: #5a90b4f7;
+    color: #203f55f7;
+    font-weight: bold;
+}
+
+#logo-link:hover {
+    color: #9ec6e0f7;
+}
+
+#logo-link {
+    color: #203f55f7;
+}
+
+
+
+
