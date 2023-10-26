@@ -6,7 +6,7 @@
 
 /* Hero section */
 .bg-hero-image {
-    background: rgba(0, 0, 0, 0.1) url('/Images/L\ -\ sitting\ at\ comp\ back.jpeg');
+    background: rgba(0, 0, 0, 0.1) url('./Images/L\ -\ sitting\ at\ comp\ back.jpeg');
     background-blend-mode: darken;
     height: 45rem;
     overflow: hidden;
@@ -318,6 +318,7 @@ p, li {
     background-color: #5a90b4f7;
     color: #203f55f7;
     font-weight: bold;
+    padding: 1rem;
 }
 
 #logo-link:hover {
@@ -327,7 +328,5 @@ p, li {
 #logo-link {
     color: #203f55f7;
 }
-
-
 
 
