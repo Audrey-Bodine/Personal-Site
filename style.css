@@ -254,8 +254,72 @@ p, li {
     text-decoration: none;
 }
 
+#gd-category-1 {
+    background: rgba(152, 92, 43, 0.763) url('./Images/Farm\ Vector.svg');
+    background-blend-mode: darken;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#gd-category-2 {
+    background: rgba(22, 52, 71, 0.825) url('./Images/ig-post-2.png');
+    background-blend-mode: darken;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#gd-category-3 {
+    background: rgba(49, 42, 42, 0.7) url('./Images/yarn-sale-poster_1.jpg');
+    background-blend-mode: darken;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2rem;
+}
+
+.gd-btn-1:hover, .gd-btn-2:hover, .gd-btn-3:hover {
+    background-color: rgb(238, 232, 232);
+    color: black;
+}
 
 
+.gd-btn-1 {
+    padding: 1rem;
+    background-color: rgb(255, 153, 75);
+    font-weight: bold;
+}
+
+.gd-btn-2 {
+    padding: 1rem;
+    background-color: #adc6cef7;
+    font-weight: bold;
+}
+
+.gd-btn-3 {
+    padding: 1rem;
+    background-color: #cfcfbdf7;
+    font-weight: bold;
+}
+
+
+#gd-category-header {
+    color: white;
+    padding-bottom: 1rem;
+}
+
+#gd-category-body {
+    color: rgb(238, 238, 238);
+    padding-bottom: 2rem;
+}
+
+
+   
+/* INFO & ART */
 
 
 
